@@ -11,6 +11,6 @@
   "scripts": {
     "test:live": "ava -v -w",
     "test": "ava",
-    "build:live":"tsc --watch"
+    "build:live": "tsc --watch"
   }
 }
