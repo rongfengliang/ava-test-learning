@@ -19,6 +19,6 @@ test('bar', async t => {
 });
 
 test('username', t => {
-	t.log("test for username is equal")
+	t.log("test for username is equal",test.meta.file)
 	t.is(user.name,"dalong")
 });
