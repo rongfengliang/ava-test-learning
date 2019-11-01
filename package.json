@@ -1,16 +1,28 @@
 {
   "name": "@rongfengliang/ava-test-learning",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-react": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "@types/react": "^16.9.11",
     "ava": "^2.4.0",
+    "react": "^16.11.0",
+    "react-test-renderer": "^16.11.0",
     "typescript": "^3.6.4",
     "zen-observable": "^0.8.14"
   },
+  "ava": {
+    "require": [
+      "@babel/register",
+      "@babel/polyfill"
+    ]
+  },
   "scripts": {
     "test:live": "ava -v -w",
-    "test": "ava",
+    "test": "ava -v",
     "build:live": "tsc --watch"
   },
   "publishConfig": {

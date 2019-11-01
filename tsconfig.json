@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
     "target": "es5",                           
-    "module": "commonjs",                     
+    "module": "umd",                     
     "declaration": true,                   
     "outDir": "libs",                       
     "rootDir": "src",
+    "jsx": "react",
     "removeComments": false,
-    "strict": true
+    "strict": true,
+    "moduleResolution": "node"
   }
 }

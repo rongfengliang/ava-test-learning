@@ -21,3 +21,28 @@ yarn build:live
 ```code
 yarn test:live
 ```
+
+## snapshot test
+
+*  test
+
+```code
+yarn test
+```
+
+* rest cache
+
+```code
+npx ava  --reset-cache
+```
+
+* update snapshot 
+
+```code
+npx ava -u
+```
+
+## some links
+
+[babel-config](https://github.com/avajs/ava/issues/1968)
+[runtime-error](https://github.com/avajs/ava/issues/685)
