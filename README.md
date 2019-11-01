@@ -42,6 +42,14 @@ npx ava  --reset-cache
 npx ava -u
 ```
 
+## tap demo
+
+* tap-nyan
+
+```code
+yarn test:nyan
+```
+
 ## some links
 
 [babel-config](https://github.com/avajs/ava/issues/1968)

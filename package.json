@@ -11,6 +11,7 @@
     "ava": "^2.4.0",
     "react": "^16.11.0",
     "react-test-renderer": "^16.11.0",
+    "tap-nyan": "^1.1.0",
     "typescript": "^3.6.4",
     "zen-observable": "^0.8.14"
   },
@@ -23,6 +24,7 @@
   "scripts": {
     "test:live": "ava -v -w",
     "test": "ava -v",
+    "test:nyan":"ava -v --tap | tap-nyan",
     "build:live": "tsc --watch"
   },
   "publishConfig": {
