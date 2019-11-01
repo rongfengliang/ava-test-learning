@@ -20,10 +20,5 @@ test('bar', async t => {
 
 test('username', t => {
 	t.log("test for username is equal")
-	if(user.name=="dalong") {
-		t.pass("is equal")
-	}
-	else{
-		t.fail("not equal")
-	}
+	t.is(user.name,"dalong")
 });
