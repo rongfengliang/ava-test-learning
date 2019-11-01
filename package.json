@@ -1,5 +1,5 @@
 {
-  "name": "ava",
+  "name": "@rongfengliang/ava-test-learning",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -12,5 +12,8 @@
     "test:live": "ava -v -w",
     "test": "ava",
     "build:live": "tsc --watch"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
