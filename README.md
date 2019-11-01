@@ -46,3 +46,4 @@ npx ava -u
 
 [babel-config](https://github.com/avajs/ava/issues/1968)
 [runtime-error](https://github.com/avajs/ava/issues/685)
+[update babel](https://github.com/avajs/ava/issues/1662)
