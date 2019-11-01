@@ -1,0 +1,16 @@
+{
+  "name": "ava",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "typescript": "^3.6.4",
+    "zen-observable": "^0.8.14"
+  },
+  "scripts": {
+    "test:live": "ava -v -w",
+    "test": "ava",
+    "build:live":"tsc --watch"
+  }
+}
