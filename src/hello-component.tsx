@@ -1,3 +1,3 @@
 import React = require("react");
-const HelloWorld = () => <h1>Hello World...!</h1>;
+const HelloWorld = () => <h1>dalong World...!</h1>;
 export default HelloWorld;
